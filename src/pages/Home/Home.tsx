@@ -26,7 +26,7 @@ const Home = () => {
               onChange={(e: ChangeEvent<HTMLInputElement>) =>
                 setSearchItem(e.target.value)
               }
-              placeholder="Search"
+              placeholder="Search name or email"
             />
           </div>
           <TableUser listData={filteredUsers} />

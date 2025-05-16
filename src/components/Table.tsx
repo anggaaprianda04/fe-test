@@ -44,6 +44,7 @@ const TableUser = (props: PropTypes) => {
       title: "Gambar",
       dataIndex: "picture",
       key: "picture",
+      align: "center",
       render: (pictures: string[]) => (
         <img
           style={{
